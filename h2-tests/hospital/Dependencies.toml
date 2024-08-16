@@ -5,7 +5,7 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.10.0-20240814-095500-9d14866a"
+distribution-version = "2201.10.0-20240806-083400-aabac46a"
 
 [[package]]
 org = "ballerina"
@@ -361,29 +361,6 @@ modules = [
 
 [[package]]
 org = "ballerinax"
-name = "mysql"
-version = "1.12.0"
-dependencies = [
-	{org = "ballerina", name = "crypto"},
-	{org = "ballerina", name = "io"},
-	{org = "ballerina", name = "jballerina.java"},
-	{org = "ballerina", name = "sql"},
-	{org = "ballerina", name = "time"}
-]
-modules = [
-	{org = "ballerinax", packageName = "mysql", moduleName = "mysql"}
-]
-
-[[package]]
-org = "ballerinax"
-name = "mysql.driver"
-version = "1.6.0"
-modules = [
-	{org = "ballerinax", packageName = "mysql.driver", moduleName = "mysql.driver"}
-]
-
-[[package]]
-org = "ballerinax"
 name = "persist.sql"
 version = "1.4.0"
 dependencies = [
@@ -411,13 +388,10 @@ dependencies = [
 	{org = "ballerinai", name = "observe"},
 	{org = "ballerinax", name = "h2.driver"},
 	{org = "ballerinax", name = "java.jdbc"},
-	{org = "ballerinax", name = "mysql"},
-	{org = "ballerinax", name = "mysql.driver"},
 	{org = "ballerinax", name = "persist.sql"}
 ]
 modules = [
 	{org = "wso2", packageName = "Demo", moduleName = "Demo"},
-	{org = "wso2", packageName = "Demo", moduleName = "Demo.db"},
 	{org = "wso2", packageName = "Demo", moduleName = "Demo.entities"}
 ]
 

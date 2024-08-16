@@ -19,11 +19,3 @@ url = "https://maven.wso2.org/nexus/content/repositories/snapshots/"
 groupId = "io.ballerina.stdlib"
 artifactId = "persist.sql-native"
 version = "1.4.0-SNAPSHOT"
-
-[[dependency]]
-org="ballerinax"
-name="persist.sql"
-version="1.4.0"
-repository="local"
-
-

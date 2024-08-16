@@ -19,3 +19,7 @@ services:
     build: ./mssql
     ports:
       - "3500:1433"
+  redis-tests:
+    image: redis
+    ports:
+      - "3600:6379"

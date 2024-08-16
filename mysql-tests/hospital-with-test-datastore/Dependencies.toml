@@ -417,7 +417,6 @@ dependencies = [
 ]
 modules = [
 	{org = "wso2", packageName = "Demo", moduleName = "Demo"},
-	{org = "wso2", packageName = "Demo", moduleName = "Demo.db"},
 	{org = "wso2", packageName = "Demo", moduleName = "Demo.entities"}
 ]
 

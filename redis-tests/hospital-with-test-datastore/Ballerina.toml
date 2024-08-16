@@ -2,7 +2,7 @@
 org = "wso2"
 name = "Demo"
 version = "0.1.0"
-distribution = "2201.8.4"
+distribution = "2201.9.0"
 
 [build-options]
 observabilityIncluded = true
@@ -15,15 +15,20 @@ url = "https://maven.wso2.org/nexus/content/groups/public/"
 id="wso2-nexus-snapshot"
 url = "https://maven.wso2.org/nexus/content/repositories/snapshots/"
 
-[[platform.java17.dependency]]
-groupId = "io.ballerina.stdlib"
-artifactId = "persist.sql-native"
-version = "1.4.0-SNAPSHOT"
-
 [[dependency]]
 org="ballerinax"
-name="persist.sql"
-version="1.4.0"
+name="persist.redis"
+version="0.2.0"
 repository="local"
+
+[[platform.java17.dependency]]
+groupId = "io.ballerina.lib"
+artifactId = "persist.redis-native"
+version = "0.2.0-SNAPSHOT"
+
+[[platform.java17.dependency]]
+groupId = "io.ballerina.stdlib"
+artifactId = "persist.inmemory-native"
+version = "1.4.0-SNAPSHOT"
 
 
